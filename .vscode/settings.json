@@ -1,0 +1,17 @@
+{
+    "NativescriptExtend.fileAssociations": [
+        {
+            "systemId": "d:\\Forks\\nativescript-gif\\schema\\tns.xsd",
+            "pattern": "**/**/*.xml"
+        },
+        {
+            "systemId": "http://www.w3.org/2001/XMLSchema.xsd",
+            "pattern": "d:\\Forks\\nativescript-gif\\schema\\tns.xsd"
+        }
+    ],
+    "files.exclude": {
+        "schema": true
+    },
+    "NativescriptExtend.format.enabled": true,
+    "NativescriptExtend.validation.enabled": true
+}
