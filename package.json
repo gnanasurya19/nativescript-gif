@@ -1,9 +1,36 @@
 {
+  "name": "nativescript-gif",
+  "version": "4.0.0-fork.1",
+  "description": "NativeScript plugin to render GIF images (forked and patched)",
+  "nativescript": {
+    "platforms": {
+      "android": "7.0.0",
+      "ios": "7.0.0"
+    }
+  },
     "scripts": {
       "ci.base.setup": "npm i -g typescript && echo no | npm i -g nativescript && tns usage-reporting disable && tns error-reporting disable && cd src && npm i && tsc",
       "ci.pip.install": "sudo pip install --upgrade pip && sudo pip install six",
       "ci.tslint": "cd src && npm run ci.tslint && cd ../demo && npm run ci.tslint",
       "ci.vanilla.android.build": "cd demo && tns build android --env.uglify",
       "ci.vanilla.ios.build": "cd demo && tns build ios --env.uglify"
-    }
-  }
+    },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gnanasurya19/nativescript-gif.git"
+  },
+  "keywords": [
+    "nativescript",
+    "gif",
+    "plugin",
+    "android",
+    "ios"
+  ],
+  "author": "Brad Martin",
+  "license": "MIT"
+}
+
+
