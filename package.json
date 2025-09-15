@@ -1,6 +1,7 @@
 {
   "name": "nativescript-gif",
   "version": "4.0.0-fork.1",
+  "main": "gif",
   "description": "NativeScript plugin to render GIF images (forked and patched)",
   "nativescript": {
     "platforms": {
@@ -16,7 +17,12 @@
       "ci.vanilla.ios.build": "cd demo && tns build ios --env.uglify"
     },
   "files": [
-    "src"
+    "src",
+    "gif.*",
+    "platforms",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
   ],
   "repository": {
     "type": "git",
